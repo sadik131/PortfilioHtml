@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./src/output.css" rel="stylesheet">
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <main class="text-white font-poppin bg-bgColor relative">
+
+    <!-- Vertical border -->
+    <div class="absolute w-[1px] border border-color1 top-0 left-[486px] h-[calc(100%)]"></div>
+
+    <!-- Navbar -->
+    <nav class="flex items-center py-11 border-b border-color1 px-[91px] justify-between">
+      <!-- Logo -->
+      <h4 class="font-oswale text-[22px]">SaulDesign</h4>
+      <!-- Nav Links -->
+      <ul class="flex text-[17px] gap-11">
+        <li>Home</li>
+        <li>About Me</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section>
+      <!-- Wrapper -->
+      <div class="pl-[170px] pr-[118px] pt-[190px] pb-[238px]">
+        <!-- Container -->
+        <div class="container mx-auto flex">
+          <!-- Text Section -->
+          <div class="">
+            <h1 class="font-bold text-[91px] leading-[91px] mb-11">CREATIVE UI <span class="text-color3">DESIGNER</span>
+            </h1>
+            <div class="flex gap-[23px] relative z-10">
+              <button
+                class="px-[30px] text-[17px] font-semibold py-[9px] rounded-full text-color1 bg-color3 text-shadow">Hire
+                me</button>
+              <button
+                class="px-[30px] text-[17px] font-semibold py-[9px] rounded-full text-color1 bg-[#393E46] flex items-center gap-[10px]">Download
+                cv
+                <img src="img/download.png" alt="">
+              </button>
+            </div>
+          </div>
+
+          <!-- right section -->
+          <div class="relative w-full h-screen">
+            <!-- Background Image -->
+            <div class="absolute inset-0">
+              <img class="w-full h-full object-cover" src="./img/heroBackground.png" alt="Background">
+            </div>
+
+            <!-- Banner Section -->
+            <div class="absolute inset-0 flex flex-col items-center ">
+              <!-- Centered Banner Boy -->
+              <img class="w-auto h-auto" src="./img/bannerBoy.png" alt="Banner Boy">
+
+              <!-- Bottom Image -->
+              <img class="w-full h-auto bottom-0 absolute " src="./img/bannerBottom.png" alt="Banner Bottom">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section>
+      <!-- container wrapper -->
+      <div class="">
+        <div class="pt-[218px] pb-[154px] px-[91px] border-b border-color1 container mx-auto">
+          <!-- Flex container for alignment -->
+          <div class="flex flex-col justify-between lg:flex-row items-center lg:items-start gap-10">
+            <!-- About Text (Left) -->
+            <div class="lg:max-w-[30%] text-center lg:text-left">
+              <h1 class="text-[60px] font-bold leading-tight">
+                About <span class="text-color3">me</span>
+              </h1>
+              <p class="text-[17px] font-normal text-color1 mt-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac
+                aliquet
+                odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                Curabitur tempus urna at turpis condimentum lobortis....
+                <span class="text-white font-semibold">Read more</span>
+              </p>
+            </div>
+
+            <!-- Image Container (Right) -->
+            <div class="relative lg:max-w-[70%]">
+              <!-- Banner Image -->
+              <img class="relative top-0 left-0 w-full h-auto object-cover" src="img/aboutbanner.png"
+                alt="About Banner">
+
+              <!-- Hero Image -->
+              <img class="absolute z-10 mx-auto lg:mx-auto bottom-[-75px] left-[105px] w-[80%] lg:w-[390px]"
+                src="img/abouthero.png" alt="About Hero">
+            </div>
+          </div>
+          <!-- Horizontal Rule -->
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- project section -->
+    <section class="bg-heroImage h-[971px]">
+      <!-- Content inside the section -->
+      <div class="text-white py-[254px] px-[114px]">
+        <div class="bg-white">
+          <h1 class="text-[60px] font-bold text-color1">My recent <span class="text-color3">works</span></h1>
+          <div class="mt-4 flex gap-[15px]">
+            <button class="bg-color3 py-[9px] px-[30px] text-color1 text-[17px] rounded-3xl font-semibold">All</button>
+            <button
+              class="bg-[#393E46] py-[9px] px-[30px] text-color1 textF-[17px] rounded-3xl font-semibold">UI</button>
+            <button
+              class="bg-[#393E46] py-[9px] px-[30px] text-color1 text-[17px] rounded-3xl font-semibold">UX</button>
+            <button class="bg-[#393E46] py-[9px] px-[30px] text-color1 text-[17px] rounded-3xl font-semibold">Web
+              Design</button>
+          </div>
+          <!-- cards -->
+          <div class="mt-11 gap-[46px] flex flex-col lg:flex-row">
+            <!-- 1st card -->
+            <div class="bg-[#393E46] rounded-2xl px-[50px] py-[50px]">
+              <img src="img/project3.png" alt="">
+            </div>
+            <!-- 2nd card -->
+            <div class="bg-[#393E46] rounded-2xl py-[50px]">
+              <img src="img/project2.png" alt="">
+            </div>
+            <!-- 3rd card -->
+            <div class="bg-[#393E46] rounded-2xl py-[50px]">
+              <img src="img/project1.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+
+</html>
