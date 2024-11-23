@@ -11,8 +11,8 @@ pdf:
 
 This is a simple website created using HTML and CSS. Follow the instructions below to clone, install, and run the project.
 
- 1. clone the repository from a terminal `git@github.com:sadik131/personalProtfilio.git`
- 2. naviage to the project directory  `cd personalProtfolio`
+ 1. clone the repository from a terminal `git@github.com:sadik131/protfolioHtml.git`
+ 2. naviage to the project directory  `cd protfolioHtml`
  3. install project `npm start`
 
 ## Features
