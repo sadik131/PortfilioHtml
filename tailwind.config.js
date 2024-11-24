@@ -10,6 +10,9 @@ module.exports = {
       },
     },
     extend: {
+      textShadow: {
+        md: '2px 2px 4px rgba(0, 0, 0, 0.3)',
+      },
       backgroundImage:{
         "heroImage":"url('./img/projectHero.png')"
       },
