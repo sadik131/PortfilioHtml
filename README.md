@@ -1,18 +1,18 @@
 
-# Personal Protfilio
+# Personal Portfilio
 
 A brief description of what this project does and who it's for
 
 
 ## PDF of website
 
-pdf:
+pdf: https://drive.google.com/file/d/1zUhNXnpX7GDoM5JbppaXjMO7muHyqPee/view?usp=sharing
 ## Installation
 
 This is a simple website created using HTML and CSS. Follow the instructions below to clone, install, and run the project.
 
- 1. clone the repository from a terminal `git@github.com:sadik131/protfolioHtml.git`
- 2. naviage to the project directory  `cd protfolioHtml`
+ 1. clone the repository from a terminal `git@github.com:sadik131/portfolioHtml.git`
+ 2. naviage to the project directory  `cd portfolioHtml`
  3. install project `npm start`
 
 ## Features
