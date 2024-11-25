@@ -19,29 +19,31 @@
   <main class="text-white font-poppin bg-bgColor relative">
 
     <!-- Vertical border -->
-    <div class="hidden lg:block absolute border-l border-color1 top-0 left-[481px] h-[calc(100%)]"></div>
+    <div class="hidden lg:block absolute border-l border-color1 top-0 left-[36%] h-[calc(100%)]"></div>
 
     <!-- navbar -->
-    <nav class="flex items-center py-6 sm:py-8 border-b border-color1 px-4 sm:px-6 md:px-[91px] justify-between">
+    <nav class="border-b border-color1 py-6 sm:py-8 px-4 sm:px-6 md:px-[91px]">
+    <div class="flex items-center container mx-auto justify-between">
 
-      <!-- Logo -->
-      <h4 class="font-oswale font-medium text-lg md:text-[22px]">SaulDesign</h4>
+        <!-- Logo -->
+        <h4 class="font-oswale font-medium text-lg md:text-[22px]">SaulDesign</h4>
 
-      <!-- Nav Links -->
-      <ul id="nav-links" class="hidden md:flex text-sm md:text-[17px] gap-6 md:gap-11">
-        <li class="hover:text-color3 font-light  cursor-pointer">Home</li>
-        <li class="hover:text-color3 font-light cursor-pointer">About Me</li>
-        <li class="hover:text-color3 font-light cursor-pointer">Contact</li>
-      </ul>
+        <!-- Nav Links -->
+        <ul id="nav-links" class="hidden md:flex text-sm md:text-[17px] gap-6 md:gap-11">
+          <li class="hover:text-color3 font-light  cursor-pointer">Home</li>
+          <li class="hover:text-color3 font-light cursor-pointer">About Me</li>
+          <li class="hover:text-color3 font-light cursor-pointer">Contact</li>
+        </ul>
+      </div>
     </nav>
 
 
     <!-- Hero Section -->
     <section class="relative z-10">
       <!-- Wrapper -->
-      <div class="px-4 md:pl-[170px] md:pr-[118px] pt-10 md:pt-[190px] pb-16 md:pb-[238px]">
+      <div class="container mx-auto px-4 md:pl-[170px] md:pr-[118px] pt-10 md:pt-[190px] pb-16 md:pb-[238px]">
         <!-- Container -->
-        <div class="container mx-auto flex flex-col-reverse md:flex-row items-center md:items-start gap-8">
+        <div class="flex flex-col-reverse md:flex-row items-center md:items-start gap-8">
           <!-- Text Section -->
           <div class="text-center w-full lg:w-[60%] md:text-left">
             <img class="absolute left-[75px] top-[230px]" src="img/leftBanner.png" alt="">
@@ -50,20 +52,19 @@
             </h1>
             <div class="flex flex-row gap-4 md:gap-[23px] relative z-10 justify-center md:justify-start">
               <div>
-                <button
-                style="text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);"
+                <button style="text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);"
                   class="px-6 md:px-[30px] text-[15px] md:text-[17px] font-semibold py-[9px] rounded-full text-color1 bg-color3 shadow-md">
                   Hire me
                 </button>
               </div>
               <div class="relative flex lg:block ">
-                <button
-                style="text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);"
+                <button style="text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);"
                   class="px-6 md:px-[30px] text-[15px] md:text-[17px] font-semibold py-[9px] rounded-full text-color1 bg-[#393E46] flex items-center gap-4 md:gap-[10px] shadow-md">
                   Download CV
                   <img src="img/download.png" alt="">
                 </button>
-                <button class="hidden lg:flex absolute right-0 top-96 h-[91px] bg-[#393E46]  items-center justify-center w-[91px]">
+                <button
+                  class="hidden lg:flex absolute right-0 top-96 h-[91px] bg-[#393E46]  items-center justify-center w-[91px]">
                   <img src="img/Group 2347.png" alt="">
                 </button>
               </div>
@@ -71,7 +72,7 @@
           </div>
 
           <!-- Right Section -->
-          <div class="relative w-full lg:w-[40%] h-[500px] md:h-screen">
+          <div class="relative w-full lg:w-[40%] h-[500px] ">
             <!-- Background Image -->
             <div class="absolute inset-0">
               <img class="w-full h-full object-cover" src="./img/heroBackground.png" alt="Background">
@@ -141,7 +142,7 @@
       style="background-image: url('./img/projectHero.png'); background-size: cover; background-position: center;">
 
       <!-- Content inside the section -->
-      <div class="text-white relative z-10 py-16 md:py-[254px] px-4 sm:px-8 md:px-[114px]">
+      <div class="container mx-auto text-white relative z-10 py-16 md:py-[254px] px-4 sm:px-8 md:px-[114px]">
         <div class="bg-white p-8 md:p-12 rounded-xl">
           <!-- Heading -->
           <h1 class="text-3xl md:text-[60px] font-bold text-color1 leading-tight">
@@ -230,8 +231,7 @@
             </div>
             <img class="absolute right-[65px] bottom-[-75px]" src="img/mail.png" alt="">
             <!-- Submit Button -->
-            <button
-            style="text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);"
+            <button style="text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);"
               class="flex items-center justify-center px-6 py-3 bg-color3 text-white rounded-3xl mt-6 w-full md:w-auto">
               Send Message
               <img class="ml-2" src="img/send.png" alt="Send">
@@ -245,7 +245,7 @@
     <footer class="relative bg-bgColor border-t pt-[95px] border-color1">
       <div class="container mx-auto">
         <!-- footer content -->
-        <div class="flex gap-12 justify-center items-center">
+        <div class="flex gap-0 lg:gap-12 justify-center items-center">
           <!-- navbar content -->
           <div class="flex p-[9px] items-center gap-[10px]">
             <img src="img/home.png" alt="">
@@ -275,7 +275,8 @@
             <img src="img/youtube.png" alt="">
           </div>
         </div>
-        <h6 class="text-[17px] px-[91px] text-end py-[46px]">Terms of Service - Privacy Policy</h6>
+        <h6 class="text-[17px] px-4 lg:px-[91px] text-center lg:text-end py-[46px]">Terms of Service - Privacy Policy
+        </h6>
       </div>
     </footer>
 
