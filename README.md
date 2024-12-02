@@ -6,7 +6,7 @@ A brief description of what this project does and who it's for
 
 ## PDF of website
 
-pdf: https://drive.google.com/file/d/1zUhNXnpX7GDoM5JbppaXjMO7muHyqPee/view?usp=sharing
+Phon & desktop: https://drive.google.com/file/d/1-uwLJAXTAj-ETkE1GdN50EFIE7sp9LOD/view?usp=sharing
 ## Installation
 
 This is a simple website created using HTML and CSS. Follow the instructions below to clone, install, and run the project.
